@@ -1,0 +1,92 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #2f5f8e;
+    color: white;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #3e81ae;
+}
+
+header .logo h1 {
+    margin: 0;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav ul li {
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+.hero {
+    background-image: url('hero.jpg');
+    background-size: cover;
+    background-position: center;
+    padding: 100px 20px;
+    text-align: center;
+}
+
+.hero-text {
+    background-color: rgba(0, 0, 0, 0.5);
+    display: inline-block;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.hero-text h2 {
+    margin: 0;
+    font-size: 2em;
+}
+
+.hero-text p {
+    margin: 0;
+    font-size: 1.2em;
+}
+
+.content {
+    display: flex;
+    justify-content: space-around;
+    padding: 50px 20px;
+    background-color: #205b85;
+}
+
+.content .box {
+    width: 30%;
+    text-align: center;
+}
+
+.content .box img {
+    max-width: 100%;
+    border-radius: 10px;
+}
+
+.content .box h3 {
+    margin: 20px 0 10px;
+}
+
+.content .box p {
+    font-size: 1em;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #3e81ae;
+}
